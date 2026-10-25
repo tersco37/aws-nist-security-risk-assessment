@@ -8,7 +8,8 @@
 - **Threat:** An unauthorized external party attempts to connect to the database.
 - **Vulnerability or control weakness:** The overly permissive inbound security group rule.
 - **Potential impact:** Unauthorized access, disclosure, modification, or deletion of customer data, potentially resulting in business disruption, contractual consequences, and reputational damage.
-- **Existing controls:** Not yet verified. The scenario does not establish whether additional network, authentication, or database protections are effective.
+- **Potential existing controls:** Security groups, network ACLs, and database authentication and authorization may help restrict unauthorized access.
+- **Control verification status:** Unverified. No live AWS configuration, database settings, or supporting evidence has been examined. The existence and effectiveness of these controls must not be assumed.
 - **Likelihood:** Not yet assessed.
 - **Impact rating:** Not yet assessed.
 - **Overall risk rating:** Not yet assessed.
