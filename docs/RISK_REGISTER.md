@@ -10,7 +10,9 @@
 - **Potential impact:** Unauthorized access, disclosure, modification, or deletion of customer data, potentially resulting in business disruption, contractual consequences, and reputational damage.
 - **Potential existing controls:** Security groups, network ACLs, and database authentication and authorization may help restrict unauthorized access.
 - **Control verification status:** Unverified. No live AWS configuration, database settings, or supporting evidence has been examined. The existence and effectiveness of these controls must not be assumed.
-- **Likelihood:** Not yet assessed.
+- **Likelihood:** High (preliminary).
+- **Likelihood rationale:** The overly permissive inbound database security group creates an opportunity for connection attempts from any IPv4 address. Successful unauthorized access remains possible if the database is reachable and other safeguards fail.
+- **Assessment limitations:** Database reachability, authentication strength, and the effectiveness of other network and access controls have not been verified. The rating is a scenario-based judgment, not a measured probability.
 - **Impact rating:** Not yet assessed.
 - **Overall risk rating:** Not yet assessed.
 - **Recommended treatment:** Restrict database inbound access to explicitly authorized application components and required ports. Review related network routes and access controls.
