@@ -38,4 +38,6 @@
 - **Preliminary likelihood:** Moderate.
 - **Likelihood rationale:** Sensitive information could be captured in application logs if logging practices do not adequately filter or redact it. The likelihood is rated Moderate provisionally because the application code, logging configuration, redaction safeguards, and log-access permissions have not been examined.
 - **Assessment limitation:** This is a hypothetical risk scenario. No evidence currently confirms that sensitive information is being recorded in logs or that unauthorized parties can access it.
-
+- **Preliminary overall risk rating:** High.
+- **Risk rating rationale:** Under the project's 3×3 risk matrix, Moderate likelihood combined with High impact produces a High overall risk rating. This rating is preliminary because the application code, logging configuration, and log-access controls have not been assessed.
+- **Risk rating limitation:** This rating represents a hypothetical risk scenario, not a confirmed security finding. The rating should be reassessed when supporting evidence becomes available.
