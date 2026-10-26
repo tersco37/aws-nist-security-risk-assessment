@@ -30,3 +30,12 @@
 - **Validation requirements:** Collect configuration evidence showing that the database security group has no inbound rule allowing database access from `0.0.0.0/0` and permits the required database port only from the authorized application tier's security group. Collect network validation results demonstrating that unauthorized sources cannot reach the database, along with functional test results confirming that authorized application-to-database connectivity still works. Record the test date, test method, result, and evidence reference. These tests are planned and have not been performed in a live environment.
 - **Implementation status:** Proposed; not implemented or verified in a live AWS environment.
 - **Evidence status:** Hypothetical scenario; no live AWS configuration has been inspected.
+
+---
+
+## Risk R-002: Potential Exposure of Sensitive Information Through Application Logs
+
+- **Preliminary likelihood:** Moderate.
+- **Likelihood rationale:** Sensitive information could be captured in application logs if logging practices do not adequately filter or redact it. The likelihood is rated Moderate provisionally because the application code, logging configuration, redaction safeguards, and log-access permissions have not been examined.
+- **Assessment limitation:** This is a hypothetical risk scenario. No evidence currently confirms that sensitive information is being recorded in logs or that unauthorized parties can access it.
+
