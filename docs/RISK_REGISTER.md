@@ -45,4 +45,6 @@
 - **Treatment rationale:** Northstar Workflow can reduce this risk without eliminating application logging by minimizing sensitive data in log records, applying appropriate redaction, and restricting log access according to least privilege.
 - **Proposed remediation:** Review application logging practices and code for sensitive data exposure; prevent unnecessary recording of session tokens, credentials, and sensitive customer information; implement appropriate filtering or redaction; restrict log access through least-privilege permissions; and establish log-retention requirements.
 - **Implementation status:** Proposed — not implemented or verified.
+- **Validation requirements:** Review application logging code and configuration for sensitive-data handling; test with representative data to confirm sensitive values are not unnecessarily recorded; inspect sample logs for unintended exposure; verify log-access permissions follow least privilege; and document test results, evidence references, test date, and any remaining exceptions.
+- **Validation status:** Not performed — remediation has not been implemented or verified.
 
