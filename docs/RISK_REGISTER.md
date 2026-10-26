@@ -47,6 +47,8 @@
 - **Implementation status:** Proposed — not implemented or verified.
 - **Validation requirements:** Review application logging code and configuration for sensitive-data handling; test with representative data to confirm sensitive values are not unnecessarily recorded; inspect sample logs for unintended exposure; verify log-access permissions follow least privilege; and document test results, evidence references, test date, and any remaining exceptions.
 - **Validation status:** Not performed — remediation has not been implemented or verified.
-- **Primary risk owner:** Engineering Manager.
-- **Technical remediation owner:** Cloud Security Engineer.
-- **GRC tracking and evidence support:** GRC Analyst.
+- **Primary risk owner:** Engineering Manager (proposed role; accountable for the risk and treatment oversight).
+- **Technical remediation owner:** Cloud Security Engineer (proposed role; responsible for the technical remediation).
+- **GRC tracking and evidence support:** GRC Analyst, tracks documentation and supporting evidence.
+
+
