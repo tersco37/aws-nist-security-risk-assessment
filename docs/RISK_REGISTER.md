@@ -41,3 +41,8 @@
 - **Preliminary overall risk rating:** High.
 - **Risk rating rationale:** Under the project's 3×3 risk matrix, Moderate likelihood combined with High impact produces a High overall risk rating. This rating is preliminary because the application code, logging configuration, and log-access controls have not been assessed.
 - **Risk rating limitation:** This rating represents a hypothetical risk scenario, not a confirmed security finding. The rating should be reassessed when supporting evidence becomes available.
+- **Risk treatment:** Mitigate.
+- **Treatment rationale:** Northstar Workflow can reduce this risk without eliminating application logging by minimizing sensitive data in log records, applying appropriate redaction, and restricting log access according to least privilege.
+- **Proposed remediation:** Review application logging practices and code for sensitive data exposure; prevent unnecessary recording of session tokens, credentials, and sensitive customer information; implement appropriate filtering or redaction; restrict log access through least-privilege permissions; and establish log-retention requirements.
+- **Implementation status:** Proposed — not implemented or verified.
+
