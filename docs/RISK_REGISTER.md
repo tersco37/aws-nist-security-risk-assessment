@@ -20,7 +20,7 @@
 - **Likelihood:** High (preliminary).
 - **Likelihood rationale:** The overly permissive inbound database security group creates an opportunity for connection attempts from any IPv4 address. Successful unauthorized access remains possible if the database is reachable and other safeguards fail.
 - **Assessment limitations:** Database reachability, authentication strength, and the effectiveness of other network and access controls have not been verified. The rating is a scenario-based judgment, not a measured probability.
-- **Impact rating:** Not yet assessed.
+- **Preliminary impact:** High.
 - **Overall risk rating:** Critical (preliminary).
 - **Risk status:** Open — Assessment Pending.
 - **Status rationale:** The risk scenario and proposed treatment are documented, but the actual AWS configuration, database reachability, and effectiveness of existing safeguards have not been verified. No remediation has been implemented or validated in a live environment.
