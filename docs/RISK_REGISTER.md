@@ -53,7 +53,7 @@
 - **Validation status:** Not performed — remediation has not been implemented or verified.
 - **Primary risk owner:** Engineering Manager (proposed role; accountable for the risk and treatment oversight).
 - **Technical remediation owner:** Cloud Security Engineer (proposed role; responsible for the technical remediation).
-- **GRC tracking and evidence support:** GRC Analyst, tracks documentation and supporting evidence.
+- **GRC tracking and evidence support:** GRC Analyst (responsible for tracking documentation and supporting evidence).
 - **Target remediation timeframe:** Within 7 days, subject to initial assessment and prioritization.
 - **Timeframe rationale:** The preliminary High risk rating warrants timely remediation. The organization should first determine whether sensitive information is being recorded in application logs or exposed to unauthorized access. If active exposure is identified, immediate investigation and containment should take priority over the seven-day target.
 - **Risk status:** Open — Assessment Pending.
