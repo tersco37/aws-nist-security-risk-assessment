@@ -35,6 +35,7 @@
 
 ## Risk R-002: Potential Exposure of Sensitive Information Through Application Logs
 
+- **Potential business impact:** Unauthorized disclosure of sensitive information through application logs could result in customer data exposure, account compromise, reputational damage, and contractual or regulatory consequences where applicable. Actual consequences would depend on the information exposed, the extent of access, and the organization's applicable obligations. No exposure has been confirmed.
 - **Preliminary impact:** High.
 - **Impact rationale:** If sensitive information such as session tokens, credentials, or customer data is recorded in application logs and accessed by unauthorized parties, the consequences could include account compromise, customer information exposure, reputational damage, and contractual or regulatory consequences where applicable. The impact is rated High provisionally because the actual data logged, exposure pathways, and affected systems have not been assessed.
 - **Preliminary likelihood:** Moderate.
