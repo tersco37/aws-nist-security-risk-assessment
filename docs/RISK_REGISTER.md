@@ -18,6 +18,6 @@
 - **Rating methodology:** A project-specific 3 × 3 risk matrix combines likelihood and impact. High likelihood plus High impact produces a Critical rating.
 - **Risk treatment:** Mitigate.
 - **Recommended remediation:** Remove the overly permissive database security group rule allowing inbound traffic from `0.0.0.0/0`. Restrict database inbound traffic to the authorized application tier's security group and the database engine's required port. Keep customer-facing HTTPS access on TCP port 443 at the Application Load Balancer.
-- **Validation requirements:** Review the resulting security group rules, confirm the database is not directly reachable from the public internet, and verify that authorized application-to-database connectivity works as intended.
+- **Validation requirements:** Collect configuration evidence showing that the database security group has no inbound rule allowing database access from `0.0.0.0/0` and permits the required database port only from the authorized application tier's security group. Collect network validation results demonstrating that unauthorized sources cannot reach the database, along with functional test results confirming that authorized application-to-database connectivity still works. Record the test date, test method, result, and evidence reference. These tests are planned and have not been performed in a live environment.
 - **Implementation status:** Proposed; not implemented or verified in a live AWS environment.
 - **Evidence status:** Hypothetical scenario; no live AWS configuration has been inspected.
