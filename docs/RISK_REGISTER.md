@@ -4,6 +4,9 @@
 
 - **Asset:** Customer and business data stored in the database.
 - **Risk category:** Network security and data confidentiality.
+- **Primary risk owner:** Engineering Manager (proposed role; accountable for risk treatment and remediation oversight).
+- **Technical remediation owner:** Cloud Security Engineer (proposed role; responsible for implementing and validating the security-group changes).
+- **GRC support:** GRC Analyst (proposed role; responsible for maintaining risk documentation and tracking remediation evidence).
 - **Scenario:** The database security group is misconfigured to allow inbound connections from `0.0.0.0/0`, permitting connection attempts from any IPv4 address.
 - **Threat:** An unauthorized external party attempts to connect to the database.
 - **Vulnerability or control weakness:** The overly permissive inbound security group rule.
