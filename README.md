@@ -17,17 +17,23 @@ The assessment uses the NIST Cybersecurity Framework (CSF) 2.0 to organize cyber
 
 ## Project Status
 
-**In progress.** The business scenario has been defined. Assessment scope, risk analysis, control mapping, findings, and remediation documentation will be developed incrementally.
+**In progress.** The business scenario, assessment scope, hypothetical system description, and preliminary risk register have been documented. Control mapping, assessment evidence, findings, remediation planning, and executive reporting remain planned activities.
+
+Risk ratings and proposed controls are preliminary and have not been validated against a live AWS environment.
+
+## Project Documentation
+
+- [Assessment Scope](docs/ASSESSMENT_SCOPE.md) — Business scenario, assessment boundaries, and scope.
+- [System Description](docs/SYSTEM_DESCRIPTION.md) — Overview of the hypothetical AWS architecture.
+- [Risk Register](docs/RISK_REGISTER.md) — Preliminary risk scenarios, ratings, proposed treatments, and validation requirements.
+
+### Planned Documentation
+
+- `docs/CONTROL_MATRIX.md` — Relevant security controls and framework mappings.
+- `docs/ASSESSMENT_FINDINGS.md` — Assessment evidence, results, and identified control gaps.
+- `docs/REMEDIATION_PLAN.md` — Recommended corrective actions and priorities.
+- `docs/EXECUTIVE_SUMMARY.md` — Summary of key risks, recommendations, and decisions.
 
 ## Important Disclaimer
 
 Northstar Workflow, Inc. and its business scenario are fictional. The AWS environment is hypothetical. This project does not claim that a live environment has been deployed, independently tested, or certified as compliant.
-
-## Planned Documentation
-
-- `ASSESSMENT_SCOPE.md` — Business scenario and assessment scope.
-- `RISK_REGISTER.md` — Identified risks and risk ratings.
-- `CONTROL_MATRIX.md` — Relevant controls and framework mappings.
-- `ASSESSMENT_FINDINGS.md` — Evidence and assessment results.
-- `REMEDIATION_PLAN.md` — Recommended corrective actions.
-- `EXECUTIVE_SUMMARY.md` — Summary of key risks and decisions.
