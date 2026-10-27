@@ -17,11 +17,9 @@ The assessment uses the NIST Cybersecurity Framework (CSF) 2.0 to organize cyber
 
 ## Project Status
 
-**In progress.** The business scenario, assessment scope, hypothetical system description, preliminary risk register, control matrix, and preliminary assessment findings have been documented.
+**Documentation complete; final quality review in progress.** The business scenario, assessment scope, hypothetical system description, preliminary risk register, control matrix, assessment findings, remediation plan, and executive summary have been documented.
 
-Evidence collection and validation, remediation planning, and executive reporting remain outstanding.
-
-Risk ratings and proposed controls are preliminary and have not been validated against a live AWS environment.
+Evidence collection and validation remain outstanding. Risk ratings and proposed controls are preliminary and have not been validated against a live AWS environment.
 
 ## Project Documentation
 
@@ -30,14 +28,8 @@ Risk ratings and proposed controls are preliminary and have not been validated a
 - [Risk Register](docs/RISK_REGISTER.md) — Preliminary risk scenarios, ratings, proposed treatments, and validation requirements.
 - [Control Matrix](docs/CONTROL_MATRIX.md) — Selected NIST SP 800-53 controls, risk mappings, intended applications, and required evidence.
 - [Assessment Findings](docs/ASSESSMENT_FINDINGS.md) — Preliminary findings, proposed actions, evidence limitations, and outstanding activities.
-
-### Planned Documentation
-
 - [Remediation Plan](docs/REMEDIATION_PLAN.md) — Proposed corrective actions, priorities, ownership, and validation requirements.
-
-### Planned Documentation
-
-- `docs/EXECUTIVE_SUMMARY.md` — Summary of key risks, recommendations, limitations, and decisions.
+- [Executive Summary](docs/EXECUTIVE_SUMMARY.md) — Summary of key risks, recommendations, limitations, and decisions.
 
 ## Important Disclaimer
 
