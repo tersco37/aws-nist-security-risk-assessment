@@ -36,3 +36,27 @@ Northstar Workflow's primary security priorities are:
 This fictional organization will serve as the business context for a cybersecurity risk assessment using the NIST Cybersecurity Framework (CSF) 2.0 and relevant controls from NIST Special Publication 800-53.
 
 The AWS environment is hypothetical and is not represented as a deployed or independently verified system.
+
+## 6. Assessment Boundaries
+
+### In Scope
+
+The hypothetical assessment includes the following components and security considerations:
+
+- AWS network architecture, including the VPC, subnets, routing, and security groups.
+- Application-tier and database-tier network access.
+- Application handling of customer information and uploaded business documents.
+- Application and security logging, including the potential exposure of sensitive information through logs.
+- Security controls and risk scenarios relevant to protecting customer information, maintaining service availability, and supporting incident investigation.
+
+### Out of Scope
+
+The following activities are excluded from this documentation-based assessment:
+
+- Testing or scanning a live AWS environment.
+- Reviewing actual AWS configurations, application source code, or production logs.
+- Performing penetration testing or vulnerability scanning.
+- Independently validating control implementation or operating effectiveness.
+- Assessing payment card data environments or regulated health information systems.
+
+These boundaries may be refined if additional system details or assessment evidence become available.
