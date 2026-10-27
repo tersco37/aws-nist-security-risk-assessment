@@ -79,4 +79,4 @@ The preliminary assessment identifies two cybersecurity risk scenarios that warr
 
 The project documents proposed control mappings and remediation activities, but available evidence is insufficient to determine whether the described weaknesses exist in an operational environment or whether relevant safeguards are implemented and effective.
 
-The assessment should remain open pending further evidence, validation, and residual-risk review.
+The assessment remains open pending evidence collection, validation of relevant controls and risk scenarios, and residual-risk review. The documentation establishes a preliminary assessment baseline but does not constitute a completed assessment of an operational environment.
