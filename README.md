@@ -17,7 +17,9 @@ The assessment uses the NIST Cybersecurity Framework (CSF) 2.0 to organize cyber
 
 ## Project Status
 
-**In progress.** The business scenario, assessment scope, hypothetical system description, and preliminary risk register have been documented. Control mapping, assessment evidence, findings, remediation planning, and executive reporting remain planned activities.
+**In progress.** The business scenario, assessment scope, hypothetical system description, preliminary risk register, control matrix, and preliminary assessment findings have been documented.
+
+Evidence collection and validation, remediation planning, and executive reporting remain outstanding.
 
 Risk ratings and proposed controls are preliminary and have not been validated against a live AWS environment.
 
@@ -26,13 +28,13 @@ Risk ratings and proposed controls are preliminary and have not been validated a
 - [Assessment Scope](docs/ASSESSMENT_SCOPE.md) — Business scenario, assessment boundaries, and scope.
 - [System Description](docs/SYSTEM_DESCRIPTION.md) — Overview of the hypothetical AWS architecture.
 - [Risk Register](docs/RISK_REGISTER.md) — Preliminary risk scenarios, ratings, proposed treatments, and validation requirements.
+- [Control Matrix](docs/CONTROL_MATRIX.md) — Selected NIST SP 800-53 controls, risk mappings, intended applications, and required evidence.
+- [Assessment Findings](docs/ASSESSMENT_FINDINGS.md) — Preliminary findings, proposed actions, evidence limitations, and outstanding activities.
 
 ### Planned Documentation
 
-- `docs/CONTROL_MATRIX.md` — Relevant security controls and framework mappings.
-- `docs/ASSESSMENT_FINDINGS.md` — Assessment evidence, results, and identified control gaps.
-- `docs/REMEDIATION_PLAN.md` — Recommended corrective actions and priorities.
-- `docs/EXECUTIVE_SUMMARY.md` — Summary of key risks, recommendations, and decisions.
+- `docs/REMEDIATION_PLAN.md` — Recommended corrective actions, priorities, ownership, and validation requirements.
+- `docs/EXECUTIVE_SUMMARY.md` — Summary of key risks, recommendations, limitations, and decisions.
 
 ## Important Disclaimer
 
