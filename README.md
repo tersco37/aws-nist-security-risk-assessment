@@ -33,7 +33,10 @@ Risk ratings and proposed controls are preliminary and have not been validated a
 
 ### Planned Documentation
 
-- `docs/REMEDIATION_PLAN.md` — Recommended corrective actions, priorities, ownership, and validation requirements.
+- [Remediation Plan](docs/REMEDIATION_PLAN.md) — Proposed corrective actions, priorities, ownership, and validation requirements.
+
+### Planned Documentation
+
 - `docs/EXECUTIVE_SUMMARY.md` — Summary of key risks, recommendations, limitations, and decisions.
 
 ## Important Disclaimer
