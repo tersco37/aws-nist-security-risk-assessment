@@ -25,7 +25,7 @@ Priorities and target timeframes below are illustrative project planning targets
   3. Restrict database connections to authorized sources, such as the application-tier security group, using the required database port.
   4. Confirm that the database does not have unintended public exposure.
   5. Test that unauthorized sources cannot connect and that legitimate application-to-database connectivity still works.
-- **Illustrative Target:** Begin immediate triage if an actual exposure is confirmed; establish a remediation deadline after assessing the verified conditions.
+- **Illustrative Target:** Complete the initial assessment within seven days of prioritization. Establish separate remediation and validation deadlines based on the findings, verified exposure, business impact, and available resources.
 - **Implementation Status:** Not implemented or verified; proposed only.
 - **Required Validation Evidence:** Relevant security-group rules, route tables, network architecture, test methods and results, test date, evidence references, and documented exceptions.
 - **Completion Criteria:** Network rules are reviewed and appropriately restricted, unintended public exposure is ruled out or corrected, and authorized application connectivity is validated.
