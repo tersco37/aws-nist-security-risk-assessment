@@ -28,3 +28,13 @@ For each selected control, this matrix records:
 - The current assessment status.
 
 Control selection does not establish that a control has been implemented or is effective. Those conclusions require appropriate assessment evidence.
+
+## 4. Selected Security Controls
+
+### SC-7 — Boundary Protection
+
+- **Related Risk:** R-001 — Potential Database Exposure.
+- **Selection Rationale:** SC-7 addresses monitoring and controlling communications at external managed interfaces and key internal managed interfaces. It is relevant to the potential for unauthorized network access to the database.
+- **Intended Application:** In the hypothetical AWS architecture, network boundaries and traffic rules should restrict database connections to authorized sources, such as the application tier, while controlling external access to the environment.
+- **Assessment Evidence Required:** Database security-group rules, relevant subnet route tables, network architecture documentation, and connectivity test results.
+- **Assessment Status:** Not assessed. The AWS environment is hypothetical, and no live configuration or connectivity evidence has been reviewed.
