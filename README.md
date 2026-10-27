@@ -17,7 +17,7 @@ The assessment uses the NIST Cybersecurity Framework (CSF) 2.0 to organize cyber
 
 ## Project Status
 
-**Documentation complete; final quality review in progress.** The business scenario, assessment scope, hypothetical system description, preliminary risk register, control matrix, assessment findings, remediation plan, and executive summary have been documented.
+**Documentation complete; operational validation pending.** The business scenario, assessment scope, hypothetical system description, preliminary risk register, control matrix, assessment findings, remediation plan, and executive summary have been documented.
 
 Evidence collection and validation remain outstanding. Risk ratings and proposed controls are preliminary and have not been validated against a live AWS environment.
 
