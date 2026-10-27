@@ -38,3 +38,11 @@ Control selection does not establish that a control has been implemented or is e
 - **Intended Application:** In the hypothetical AWS architecture, network boundaries and traffic rules should restrict database connections to authorized sources, such as the application tier, while controlling external access to the environment.
 - **Assessment Evidence Required:** Database security-group rules, relevant subnet route tables, network architecture documentation, and connectivity test results.
 - **Assessment Status:** Not assessed. The AWS environment is hypothetical, and no live configuration or connectivity evidence has been reviewed.
+
+### AU-2 — Event Logging
+
+- **Related Risk:** R-002 — Potential Exposure of Sensitive Information Through Application Logs.
+- **Selection Rationale:** AU-2 addresses identifying events that the system can log, determining which events should be logged, and documenting the rationale for those decisions. It is relevant to establishing appropriate logging requirements for the hypothetical application.
+- **Intended Application:** Northstar should define which application and security events need to be logged to support monitoring and investigation while avoiding unnecessary collection of sensitive information. The specific requirement to exclude session tokens, credentials, and unnecessary sensitive customer information from application logs is a proposed risk-treatment requirement; AU-2 is not being represented as an explicit prohibition against recording those values.
+- **Assessment Evidence Required:** Documented logging requirements, application logging configuration, relevant logging code or configuration, representative log samples, and test results demonstrating whether sensitive values are excluded.
+- **Assessment Status:** Not assessed. The AWS environment and application are hypothetical, and no implementation or logging evidence has been reviewed.
