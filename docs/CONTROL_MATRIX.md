@@ -29,6 +29,10 @@ For each selected control, this matrix records:
 
 Control selection does not establish that a control has been implemented or is effective. Those conclusions require appropriate assessment evidence.
 
+### Control Assessment Approach
+
+If supporting evidence becomes available, each selected control should be evaluated based on its documented design, implementation, and operating effectiveness, as applicable to the control. Documentation alone may not establish that a control operates effectively. Assessment conclusions must be supported by appropriate evidence, and any limitations or unverified elements must be documented.
+
 ## 4. Selected Security Controls
 
 ### SC-7 — Boundary Protection
