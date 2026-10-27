@@ -27,6 +27,14 @@ The proposed system consists of the following components:
 
 The specific AWS compute, database, encryption, and backup services have not yet been selected. Their configuration and effectiveness are not assumed to be compliant or secure.
 
+### 3.1 Risk-Relevant Components
+
+Two components are particularly relevant to the preliminary risk scenarios documented in this assessment:
+
+- **Database network access:** The database tier is intended to reside in private subnets. Its actual exposure depends on the implemented network configuration, including security group rules, routing, and permitted connection sources. Private-subnet placement alone does not establish that database access is appropriately restricted. This consideration supports risk scenario R-001.
+
+- **Application logging:** Application and security logs may support monitoring and incident investigation. The information recorded, the handling of sensitive values, and the permissions governing log access will need to be evaluated. These considerations support risk scenario R-002.
+
 ## 4. Information Processed
 
 The system is assumed to process or store:
